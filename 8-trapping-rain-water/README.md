@@ -8,3 +8,4 @@ https://leetcode.com/problems/trapping-rain-water/submissions/1189514635/
 ## 설명
 - 가장 일반적인 case에서의 해법을 생각하고 반복하여 전체 값을 구하자
 - x=n 일때 기준으로 먼저 생각해 보자
+- https://www.youtube.com/watch?v=ZI2z5pq0TqA
