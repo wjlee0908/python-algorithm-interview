@@ -1,3 +1,5 @@
+# Two pointer를 활용한 풀이
+
 from typing import List
 
 

@@ -1,3 +1,5 @@
+# list `.reverse()` 함수를 활용한 풀이
+
 from typing import List
 
 
