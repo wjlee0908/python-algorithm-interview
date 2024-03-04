@@ -1,7 +1,6 @@
 # 재귀 함수 활용 풀이
 from typing import Optional
 
-
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
