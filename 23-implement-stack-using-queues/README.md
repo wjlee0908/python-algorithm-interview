@@ -7,3 +7,4 @@ https://leetcode.com/problems/implement-stack-using-queues
 
 ## Note
 - 파이썬의 큐는 `collections.deque()`로 구현한다
+  - 스택은 리스트(`[]`)
