@@ -24,4 +24,4 @@ https://leetcode.com/problems/top-k-frequent-elements
     => ('a1, 'b1'), ('a2', 'b2')
     ```
 - python의 `*`은 unpack 연산자로, JS의 `...`과 비슷하다
-  - `*[a, b] => a,b`
+  - `*[a, b] => a,b"`
