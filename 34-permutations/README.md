@@ -16,3 +16,11 @@ https://leetcode.com/problems/permutations
   - 이 패턴으로 현재 트래킹하고 있는 값을 외부 변수 하나로 관리할 수 있다
 - DFS에서 `return` 값을 사용하는 것 보다는 외부 변수에 트래킹하는 값, 결과 등을 저장하면 편리하다
   - 인자에는 바뀌는 상태 전달
+
+# itertools를 이용한 풀이
+## 핵심 아이디어
+- 모든 순열 구하기 -> `itertools.permutations()`
+
+## Note
+- python의 itertools 모듈을 이용하면 요소를 이용해 구성할 수 있는 순열, 조합, 중복조합 리스트를 구할 수 있다
+  - 리스트로 출력하려면 `list()`로 변환해 줘야 한다
