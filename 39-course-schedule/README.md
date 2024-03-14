@@ -9,3 +9,5 @@ https://leetcode.com/problems/course-schedule
 ## Note
 - DFS에서 방문 경로는 다음 재귀 함수 호출 전에 리스트(또는 set)에 노드를 추가해서 저장할 수 있다.
   - 노드가 경로에 있는 지 확인해서 cyclic 구조를 확인할 수 있다
+- `collections.defaultdict`의 키 값 순회는 `for x in list(my_dict)`로 리스트로 변환해서 한다
+  - 존재하지 않는 키 값은 빈 리스트를 생성하여 그래프가 변경되고, 에러가 발생하기 때문이다
