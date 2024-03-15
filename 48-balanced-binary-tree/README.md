@@ -7,7 +7,7 @@ https://leetcode.com/problems/balanced-binary-tree
   - 하위 노드에 실패 있으면 실패 리턴
 
 ## Note
-- 재귀 함수에서 값 누산 
+- 재귀 함수에서 값 누산 (점화식)
     ```
     if not node:
         return 0  
