@@ -29,3 +29,8 @@ https://leetcode.com/problems/invert-binary-tree
 ## Note
 - BFS 코드에서 큐를 스택으로 바꾸고 `.popleft()` 대신에 `.pop()`을 하면 DFS가 된다
   - 스택에서 `.pop()`되는 노드 = 마지막에 넣은 노드 = 자식 노드이기 때문이다
+
+# DFS 후위 순회를 이용한 풀이
+## Note
+- DFS 풀이에서 스왑을 stack append 이후에 하면 후위 순회가 된다
+  - 전위 순회 코드에서는 스왑 후 append하여 `stack.append(right)`가 원래 `left` 였던 노드이기 때문이다
